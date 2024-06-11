@@ -1,0 +1,135 @@
+header {
+    width: 100%;
+    background-color: #F1F3FF;
+}
+
+nav.navbar.navbar-expand-lg {
+    padding: 24px 0px 0px 0px;
+}
+
+.rectangle {
+    background-color: #0D28A6;
+    width: 100px;
+    height: 34px;
+    margin-left: 16px;
+}
+
+div#offcanvasNavbar.offcanvas.offcanvas-end.show{
+    width: 180px;
+}
+
+
+div.offcanvas-header{
+    margin: 32px 0px 0px 16px;
+    padding: 0px 0px 0px 0px;
+    width: 140px;
+}
+
+div.offcanvas-body{
+    margin: 16px 0px 0px 16px;
+    padding: 0px 0px 0px 0px;
+}
+
+.navbar-toggler {
+    margin-right: 16px;
+}
+
+.offcanvas-title{
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+}
+
+.registerButton {
+    width: 81px;
+    height: 36px;
+    border-radius: 2px;
+
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+
+    background-color: #5CB85F;
+    border-style: none;
+
+}
+
+
+.registerButton a {
+    font-family: Helvetica;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: white;
+    text-align: center;
+}
+
+
+.nav-item {
+    width: 88px;
+    justify-content: left;
+    display: flex;
+}
+
+a.nav-link {
+    color: black;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.nav-item-our {
+    display: flex;
+    align-items: left;
+}
+
+
+@media only screen and (min-width:992px) {
+
+    .nav-item-our {
+        width: 100px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    a.nav-link {
+        color: black;
+        text-decoration: none;
+        justify-content: center;
+        font-family: Helvetica;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .rectangle {
+        margin-left: 136px;
+    }
+
+    .nav-item {
+        width: 88px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .navbar-nav{
+        margin-right: 136px;
+    }
+
+    div.offcanvas-body {
+        margin: 0px 0px 0px 0px;
+    }
+}
