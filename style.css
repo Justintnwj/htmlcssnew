@@ -18,6 +18,15 @@ a.font {
     margin: 0px 0px 0px 0px;
 }
 
+.firstDescWhyUs h2 {
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
 .registerButton, .carRentButton {
     height: 36px;
     border-radius: 2px;
@@ -127,9 +136,56 @@ a.nav-link {
 }
 
 .carImage img {
-    width: 344.22px;
-    height: 199px;
+    width: 100%;
+    max-width: 850px;
+    height: auto;
   }
+
+.whyUs {
+    padding-top: 60px;
+    padding-left: 16px;
+}
+
+.serviceImage {
+    padding-left: 38px;
+    padding-right: 54px;
+}
+
+.serviceImage img {
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+}
+
+.whyUsDesc {
+    padding-top: 24px;
+}
+
+.firstDescWhyUs p {
+    padding-top: 8px;
+}
+
+.secondDescWhyUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.whyUsBenefit {
+    display: flex;
+    padding-bottom: 16px;
+}
+
+.whyUsBenefit img {
+    display: flex;
+    align-items: center;
+}
+
+.listBenefit {
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+}
 
 footer {
     width: 100%;
@@ -164,7 +220,7 @@ footer .rectangle {
 }
 
 
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:1200px) {
 
     .nav-item-our {
         width: 105px;
@@ -217,6 +273,43 @@ footer .rectangle {
         width: 704px;
         height: 407px;
       }
+
+    .whyUs {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 14.3%;
+        padding-right: 14.3%;
+    }
+
+    .serviceImage {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .serviceImage img {
+        width: 459px;
+        height: 428px;
+    }
+
+    .whyUsDesc {
+        padding-left: 9.73%;
+        padding-top: 36px;
+    }
+
+    .firstDescWhyUs h2 {
+        width: 91%;
+    }
+
+    .firstDescWhyUs p {
+        width: 91%;
+    }
+
+    .whyUsBenefit {
+        width: 91%;
+    }
+
+    .firstDescWhyUs p.font {
+        width: 100%;
+    }
 
     footer {
         width: 100%;
