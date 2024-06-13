@@ -26,7 +26,6 @@ a.font {
     letter-spacing: 0em;
     text-align: left;
 }
-
 .registerButton, .carRentButton {
     height: 36px;
     border-radius: 2px;
@@ -194,6 +193,17 @@ footer {
     padding-left: 16px;
 }
 
+=======
+    width: 344.22px;
+    height: 199px;
+  }
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+}
 .contactUs {
     font-weight: 300;
     text-align: left;
@@ -310,7 +320,6 @@ footer .rectangle {
     .firstDescWhyUs p.font {
         width: 100%;
     }
-
     footer {
         width: 100%;
         display: flex;
